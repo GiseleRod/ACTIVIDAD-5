@@ -1,5 +1,5 @@
 
-package staticFinal;
+package ejercicio5;
 import java.util.Scanner;
 public class Actividad {
 
