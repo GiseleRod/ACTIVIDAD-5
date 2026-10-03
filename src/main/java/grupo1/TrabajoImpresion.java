@@ -2,7 +2,7 @@ package grupo1;
 
 public class TrabajoImpresion implements Trabajo {
 
-    private String documento;
+    private final String documento;
 
     public TrabajoImpresion(String documento) {
         this.documento = documento;

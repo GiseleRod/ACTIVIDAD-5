@@ -5,9 +5,9 @@ import java.util.Queue;
 
 public class ColaDeTrabajo {
 
-    private String nombre;
+    private final String nombre;
     private boolean estado;
-    private Queue<Trabajo> trabajos;
+    private final Queue<Trabajo> trabajos;
 
     public ColaDeTrabajo(String nombre) {
         this.nombre = nombre;

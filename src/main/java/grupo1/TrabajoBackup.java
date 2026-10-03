@@ -2,7 +2,7 @@ package grupo1;
 
 public class TrabajoBackup implements Trabajo {
 
-    private String origen;
+    private final String origen;
 
     public TrabajoBackup(String origen) {
         this.origen = origen;

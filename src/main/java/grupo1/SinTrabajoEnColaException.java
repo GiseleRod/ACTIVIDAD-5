@@ -2,7 +2,7 @@ package grupo1;
 
 public class SinTrabajoEnColaException extends Exception {
 
-    private String nombre;
+    private final String nombre;
 
     public SinTrabajoEnColaException(String nombre) {
         this.nombre = nombre;
