@@ -1,4 +1,4 @@
-package staticFinal;
+package Ejercicio5;
 
 public class Circulo {
      public static final double PI = 3.14;
